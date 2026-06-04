@@ -1,6 +1,10 @@
 # Prompt Engineering Portfolio
 Name: Kishore J
+
+
 Date: 04/06/2026
+
+
 LLM Used: Gemini 1.5 Pro
 
 ## Part 1: Prompt Design & Iteration
