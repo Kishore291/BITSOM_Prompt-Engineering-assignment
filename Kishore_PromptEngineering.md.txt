@@ -60,10 +60,6 @@ TideSaver: Drink Deep. Save the Seas.
 Integrating specific roles and context drastically transforms the quality of an LLM's output. By assigning a role (like "expert elementary school teacher"), you explicitly tell the AI which vocabulary set, tone, and professional standard to adopt. Furthermore, adding precise context removes ambiguity, forcing the AI to generate highly customized and actionable content rather than relying on broad, unhelpful 
 placeholders.
 
-
-
-
-
 ## Part 2: Temperature & Parameter Control
 
 ### 2.1 Temperature Experimentation
@@ -90,11 +86,6 @@ placeholders.
 ### 2.2 Analysis & Recommendations
 
 Low temperature settings are ideal for tasks requiring strict factual accuracy and consistency, such as writing Python code or summarizing legal documents. Conversely, high temperature settings are best used for creative endeavors where unique and diverse ideas are needed, such as brainstorming marketing campaigns or writing fiction. For this specific short story task, the high temperature setting (1.2) worked best because it introduced vivid imagery, unique vocabulary, and an engaging atmosphere. While the low temperature output was too robotic and dry for narrative fiction, the high temperature instantly hooked the reader with highly creative details.
-
-
-
-
-
 
 ## Part 3: Strategic Prompting Techniques
 
@@ -173,9 +164,6 @@ Now classify these:
 | **5** | Negative | Negative | Negative | No (Already correct) |
 
 Few-shot prompting is most useful when you need the LLM to follow a highly specific classification taxonomy that it wouldn't naturally default to. By providing examples, it eliminated the zero-shot model's tendency to invent new categories (like "Mixed") and taught the model how to correctly handle nuanced, lukewarm reviews (like Review 2 and 4) by categorizing them as Neutral instead of Positive.
-
-
-
 
 ## Part 4: Responsible AI & Limitations
 
