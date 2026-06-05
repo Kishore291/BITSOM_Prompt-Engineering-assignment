@@ -124,6 +124,8 @@ Without chain-of-thought, the LLM provides just the final number, offering no vi
 3. "Absolutely love this! Best purchase I've made all year!"
 4. "The quality is okay but slightly overpriced for what you get."
 5. "Terrible experience, would not recommend to anyone."
+
+   
 *Output:* 
 1. Negative
 2. Positive
@@ -150,6 +152,8 @@ Now classify these:
 3. "Absolutely love this! Best purchase I've made all year!"
 4. "The quality is okay but slightly overpriced for what you get."
 5. "Terrible experience, would not recommend to anyone."
+
+   
 *Output:*
 1. Sentiment: Negative
 2. Sentiment: Neutral
